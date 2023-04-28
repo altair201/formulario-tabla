@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    display: grid;
+    place-items: center;
+}
+.formulario{
+    position: relative;
+    height: 45vh;
+    width: 33vw;
+    border: solid ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.formulario>input{
+    width: 20vw;
+    height: 3vh;
+}
+.tabla_nombre{
+    height: 40vh;
+    width: 50vw;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.tabla_nombre{
+    border: solid 2px;
+}
+.inert {
+    border: solid 1px;
+    height: 20px;
+    width: 100%;
+}
+th, td {
+    height: 20px;
+    width: 25%;
+    text-align: center;
+    border: solid;
+}
